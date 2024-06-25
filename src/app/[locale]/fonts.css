@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-HeavyItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-RegularItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}

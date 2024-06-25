@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 60px;
+  font-family: 'SFMono', sans-serif;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    .switchers {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+  }
+}

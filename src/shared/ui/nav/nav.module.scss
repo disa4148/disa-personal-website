@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+
+  a {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    &:hover {
+      transition: all 0.3s;
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "header": {
+    "nav": {
+      "home": {
+        "title": "Главная",
+        "link": "/"
+      },
+      "skills": {
+        "title": "Мои навыки",
+        "link": "/"
+      },
+      "projects": {
+        "title": "Проекты",
+        "link": "/"
+      },
+      "qualities": {
+        "title": "Мои качества",
+        "link": "/"
+      }
+    }
+  }
+}
