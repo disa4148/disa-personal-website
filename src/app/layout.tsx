@@ -4,7 +4,8 @@ import { Fira_Code } from 'next/font/google';
 import './globals.css';
 import Providers from '@/src/app/_providers/Providers';
 import { cn } from '@/src/shared/lib/utils';
-
+import { NextIntlClientProvider } from 'next-intl';
+import { getLocale, getMessages } from 'next-intl/server';
 const FiraCode = Fira_Code({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -15,17 +16,20 @@ export const metadata: Metadata = {
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
-  params: { locale: string };
 }
 
-const LocaleLayout: React.FC<LocaleLayoutProps> = async ({
-  children,
-  params: { locale },
-}) => {
+const LocaleLayout: React.FC<LocaleLayoutProps> = async ({ children }) => {
+  const locale = await getLocale();
+
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages();
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={cn(FiraCode.className, 'bg-dark-bg-100')}>
-        <Providers>{children}</Providers>
+        <NextIntlClientProvider messages={messages}>
+          <Providers>{children}</Providers>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
