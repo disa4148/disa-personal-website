@@ -1,0 +1,11 @@
+.dropdown {
+  position: relative;
+  .trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 6px;
+    cursor: pointer;
+  }
+}

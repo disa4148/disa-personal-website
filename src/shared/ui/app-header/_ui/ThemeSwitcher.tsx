@@ -27,7 +27,7 @@ const ThemeSwitcher = (): JSX.Element | null => {
       size="icon"
       variant="ghost"
       onClick={() => changeTheme(theme === 'light' ? 'dark' : 'light')}
-      className="dark:invert hover:opacity-85 transition-opacity"
+      className="dark:invert hover:opacity-85 transition-opacity p-0"
     >
       {theme === 'light' ? <Moon /> : <Sun />}
     </Button>

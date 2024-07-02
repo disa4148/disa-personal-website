@@ -4,9 +4,10 @@ import css from './layout.module.scss';
 
 interface Layout {
   logo: React.ReactNode;
-  nav?: React.ReactNode;
-  languageSwitcher?: React.ReactNode;
-  themeSwitcher?: React.ReactNode;
+  nav: React.ReactNode;
+  languageSwitcher: React.ReactNode;
+  themeSwitcher: React.ReactNode;
+  sheet: React.ReactNode;
 }
 
 const Layout: React.FC<Layout> = ({
@@ -14,12 +15,14 @@ const Layout: React.FC<Layout> = ({
   nav,
   languageSwitcher,
   themeSwitcher,
+  sheet,
 }) => {
   return (
     <header className={cn(css.layout, 'bg-dark-bg-90')}>
-      {logo}
+      <div className={css.logo}>{logo}</div>
       <div className={css.nav}>
-        {nav}
+        <div className={css.items}>{nav}</div>
+        <div className={css.sheet}>{sheet}</div>
         <div className={css.switchers}>
           {languageSwitcher}
           {themeSwitcher}

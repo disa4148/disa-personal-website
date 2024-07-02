@@ -16,7 +16,15 @@
       "qualities": {
         "title": "Мои качества",
         "link": "/"
+      },
+      "contacts": {
+        "title": "Контакты",
+        "link": "/"
       }
+    },
+    "localeSwitcher": {
+      "ru": "Русский",
+      "en": "English"
     }
   }
 }

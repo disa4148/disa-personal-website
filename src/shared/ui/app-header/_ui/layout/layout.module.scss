@@ -16,5 +16,36 @@
       justify-content: center;
       gap: 5px;
     }
+    .sheet {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .layout {
+    padding: 30px;
+    gap: 16px;
+    .logo {
+      width: max-content;
+    }
+    .nav {
+      gap: 16px;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .layout {
+    .nav {
+      .items,
+      .switchers {
+        display: none;
+      }
+      .sheet {
+        display: flex;
+      }
+    }
   }
 }
