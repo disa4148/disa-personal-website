@@ -1,0 +1,55 @@
+.wrapper {
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  .separator {
+    height: 90px;
+  }
+  a {
+    &:hover {
+      animation: bounce 0.5s ease-in-out;
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1400px) {
+  .wrapper {
+    left: 20px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    display: flex;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    display: none;
+  }
+}

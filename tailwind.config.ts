@@ -26,6 +26,17 @@ const config = {
         },
         light: {},
       },
+      backgroundImage: {
+        'dark-gradient':
+          'radial-gradient(50.00% 50.00% at 50% 50%, rgb(93, 69, 253), rgba(62, 14, 175, 0) 100%);',
+      },
+      borderColor: {
+        dark: {
+          bg: {
+            100: '#5D45FD',
+          },
+        },
+      },
       keyframes: {
         'accordion-down': {
           from: { height: '0' },

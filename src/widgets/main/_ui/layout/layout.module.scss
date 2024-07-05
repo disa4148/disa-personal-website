@@ -1,0 +1,36 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - var(--header-height));
+  padding-top: var(--header-height);
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 60px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    height: auto;
+    .wrapper {
+      align-items: center;
+      flex-direction: column-reverse;
+      gap: 80px;
+      max-width: max-content;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .layout {
+    .wrapper {
+      padding: 0 40px;
+    }
+  }
+}

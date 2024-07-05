@@ -1,0 +1,66 @@
+.wrapper {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 220px;
+  justify-content: space-between;
+
+  .emailText {
+    transform: rotate(90deg);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    cursor: pointer;
+    display: inline-block;
+
+    &:hover {
+      animation: bounce 0.5s ease-in-out;
+    }
+  }
+
+  .separator {
+    height: 90px;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotate(90deg) translateX(0);
+  }
+  50% {
+    transform: rotate(90deg) translateX(-5px);
+  }
+  100% {
+    transform: rotate(90deg) translateX(0);
+  }
+}
+
+@media (max-width: 1400px) {
+  .wrapper {
+    right: 20px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    display: flex;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    display: none;
+  }
+}

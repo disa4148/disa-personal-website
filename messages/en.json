@@ -26,5 +26,21 @@
       "ru": "Русский",
       "en": "English"
     }
+  },
+  "home": {
+    "main": {
+      "title": "Hi, my name is",
+      "name": "Denis Nikolaenko",
+      "info": {
+        "me": "I'm a",
+        "and": "and",
+        "specialty": {
+          "first": "frontend developer",
+          "second": "web-designer"
+        }
+      },
+      "description": "I build responsive websites that blend technology with creativity.",
+      "btn": "Contact me!"
+    }
   }
 }

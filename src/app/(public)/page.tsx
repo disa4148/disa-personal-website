@@ -1,7 +1,9 @@
-import { useTranslations } from 'next-intl';
-
+import Main from '@/src/widgets/main/Main';
 const Home: React.FC = () => {
-  const t = useTranslations();
-  return <p>{t('header.nav.home.title')}page</p>;
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 };
 export default Home;
