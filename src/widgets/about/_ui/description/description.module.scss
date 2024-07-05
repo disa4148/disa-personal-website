@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 36px;
+  max-width: 605px;
+  width: 100%;
+  .description {
+    max-width: 605px;
+    width: 100%;
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    .description {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

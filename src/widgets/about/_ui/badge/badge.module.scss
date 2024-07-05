@@ -1,0 +1,18 @@
+.wrapper {
+  width: 400px;
+  height: 580px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 350px;
+    height: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 350px;
+    height: 480px;
+  }
+}

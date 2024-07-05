@@ -12,12 +12,14 @@ const Layout: React.FC<Layout> = ({ bio, avatar }) => {
       <div className={css.wrapper}>
         {bio} {avatar}
       </div>
-      <HalfSquare
-        height="120px"
-        width="55px"
-        position="right"
-        verticalOffset="20%"
-      />
+      <div className={css.square}>
+        <HalfSquare
+          height="120px"
+          width="55px"
+          position="right"
+          verticalOffset="20%"
+        />
+      </div>
     </section>
   );
 };

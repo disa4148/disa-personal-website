@@ -26,7 +26,7 @@ const HalfSquare: React.FC<HalfSquareProps> = ({
       style={{
         width,
         height,
-        position: 'fixed',
+        position: 'absolute',
         top: verticalOffset,
         transform: 'translateY(-50%)',
         [position]: 0,

@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Calibri;
+    text-wrap: nowrap;
+  }
+  .separatorContainer {
+    max-width: 330px;
+    width: 100%;
+    .separator {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    h1 {
+      font-size: 28px;
+    }
+  }
+}
