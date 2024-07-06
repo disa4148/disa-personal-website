@@ -1,0 +1,31 @@
+export const items: string[] = [
+  'next',
+  'react',
+  'redux',
+  'ts',
+  'js',
+  'tailwind',
+  'sass',
+  'webpack',
+  'jest',
+  'shadcn',
+  'figma',
+  'css',
+  'html',
+];
+
+export const toolTipItems: string[] = [
+  'NextJS',
+  'ReactJS',
+  'Redux',
+  'TypeScript',
+  'JavaScript',
+  'Tailwind',
+  'SASS',
+  'Webpack',
+  'Jest',
+  'Shadcn',
+  'Figma',
+  'CSS',
+  'HTML',
+];

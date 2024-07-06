@@ -20,7 +20,7 @@ const config = {
     extend: {
       colors: {
         dark: {
-          bg: { 100: '#0E0021', 90: '#241F47' },
+          bg: { 100: '#0E0021', 90: '#241F47', 80: '#251C31' },
           main: '#5D45FD',
           text: '#ABB2BF',
         },
