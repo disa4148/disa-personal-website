@@ -12,8 +12,18 @@
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 60px;
-    gap: 45px;
+    gap: 20px;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      max-width: 1280px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 60px;
+      gap: 45px;
+    }
   }
 }
 
@@ -56,5 +66,8 @@
 @media (max-width: 380px) {
   .layout {
     padding-top: 390px;
+    .wrapper {
+      gap: 0;
+    }
   }
 }

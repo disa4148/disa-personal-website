@@ -12,6 +12,8 @@
   },
   "aliases": {
     "components": "@/src/shared/",
-    "utils": "@/src/shared/lib/"
+    "utils": "@/src/shared/lib/",
+    "ui": "@/src/shared/ui",
+    "magicui": "@/src/shared/magicui"
   }
 }

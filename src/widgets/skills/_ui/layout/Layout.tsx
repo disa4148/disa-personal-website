@@ -10,8 +10,10 @@ const Layout: React.FC<Layout> = ({ description, technologies, orbit }) => {
   return (
     <section className={css.layout}>
       <div className={css.wrapper}>
-        {description}
-        {technologies}
+        <div className={css.container}>
+          {description}
+          {technologies}
+        </div>
         {orbit}
       </div>
     </section>
