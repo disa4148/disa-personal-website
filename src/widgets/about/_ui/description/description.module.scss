@@ -6,6 +6,9 @@
   max-width: 605px;
   width: 100%;
   .description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     max-width: 605px;
     width: 100%;
     p {

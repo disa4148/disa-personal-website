@@ -44,7 +44,11 @@
     },
     "about": {
       "title": "About me",
-      "description": "Hi! My name is Denis. My interest in web development began 4 years ago when I created my first project during my first year of college. Since then, web development has become my true passion, and I enjoy doing it to this day. Today, I work in a small team of 4 people, and together we complete freelance projects. I specialize in frontend development, creating modern and user-friendly interfaces. Each new project is an opportunity for me to create something unique and useful. By working on various tasks, I apply advanced technologies and best practices to create high-quality and efficient web applications. My passion for web development drives me to make the internet better and more accessible for everyone."
+      "description": {
+        "first": "Hi! My name is Denis. My interest in web development began 4 years ago when I created my first project during my first year of college. Since then, web development has become my true passion, and I enjoy doing it to this day.",
+        "second": "Today, I work in a small team of 4 people, and together we complete freelance projects. I specialize in frontend development, creating modern and user-friendly interfaces.",
+        "third": "Each new project is an opportunity for me to create something unique and useful. By working on various tasks, I apply advanced technologies and best practices to create high-quality and efficient web applications. My passion for web development drives me to make the internet better and more accessible for everyone."
+      }
     },
     "skills": {
       "title": "My skills",

@@ -10,18 +10,9 @@
     font-family: Calibri;
     text-wrap: nowrap;
   }
-  .separatorContainer {
-    max-width: 330px;
+  .separator {
+    max-width: 17vw;
     width: 100%;
-    .separator {
-      width: 100%;
-    }
-  }
-}
-
-@media (max-width: 1024px) {
-  .wrapper {
-    justify-content: center;
   }
 }
 

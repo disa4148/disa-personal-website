@@ -12,9 +12,7 @@ const Title: React.FC<TitleProps> = ({ number, title }) => {
       <h1>
         <span className="text-dark-main">0{number}. </span> {title}
       </h1>
-      <div className={css.separatorContainer}>
-        <Separator className={css.separator} />
-      </div>
+      <Separator className={css.separator} />
     </div>
   );
 };
