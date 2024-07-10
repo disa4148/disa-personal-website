@@ -20,7 +20,7 @@ const config = {
     extend: {
       colors: {
         dark: {
-          bg: { 100: '#0E0021', 90: '#241F47', 80: '#251C31' },
+          bg: { 100: '#0E0021', 90: '#241F47', 80: '#251C31', 70: '#262432' },
           main: '#5D45FD',
           text: '#ABB2BF',
         },
@@ -29,6 +29,8 @@ const config = {
       backgroundImage: {
         'dark-gradient':
           'radial-gradient(50.00% 50.00% at 50% 50%, rgb(93, 69, 253), rgba(62, 14, 175, 0) 100%);',
+        'dark-gradient-card':
+          'linear-gradient(180.00deg, rgb(93, 69, 253),rgba(93, 69, 253, 0.2) 100%);',
       },
       borderColor: {
         dark: {

@@ -58,6 +58,61 @@
         "advanced": "advanced",
         "web": "web applications"
       }
+    },
+    "qualities": {
+      "title": "My qualities",
+      "carousel": {
+        "responsibility": {
+          "title": "Responsibility",
+          "description": "I see things through to the end, ensuring quality and meeting deadlines.",
+          "icon": "CircleCheckBig"
+        },
+        "communication": {
+          "title": "Communication",
+          "description": "I easily connect with people and work well in a team.",
+          "icon": "Speech"
+        },
+        "creativity": {
+          "title": "Creativity",
+          "description": "I offer out-of-the-box solutions to complex problems.",
+          "icon": "Lightbulb"
+        },
+        "organization": {
+          "title": "Organization",
+          "description": "I effectively plan and manage my time.",
+          "icon": "CalendarCheck2"
+        },
+        "technical_knowledge": {
+          "title": "Technical Knowledge",
+          "description": "I have knowledge of modern technologies.",
+          "icon": "Settings"
+        },
+        "flexibility": {
+          "title": "Flexibility",
+          "description": "I adapt to changes and new conditions.",
+          "icon": "PersonStanding"
+        },
+        "analytical_thinking": {
+          "title": "Analytical Thinking",
+          "description": "I analyze information to make informed decisions.",
+          "icon": "BarChart3"
+        },
+        "stress_resistance": {
+          "title": "Stress Resistance",
+          "description": "I am effective under high workload and stress.",
+          "icon": "Shield"
+        },
+        "punctuality": {
+          "title": "Punctuality",
+          "description": "I meet deadlines and respect colleagues' time.",
+          "icon": "Clock"
+        },
+        "result_oriented": {
+          "title": "Result Oriented",
+          "description": "I strive to achieve high results.",
+          "icon": "Target"
+        }
+      }
     }
   }
 }

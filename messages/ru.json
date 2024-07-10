@@ -58,6 +58,61 @@
         "advanced": "современных",
         "web": "веб-приложений"
       }
+    },
+    "qualities": {
+      "title": "Мои качества",
+      "carousel": {
+        "responsibility": {
+          "title": "Ответственность",
+          "description": "Довожу дела до конца, обеспечивая качество и соблюдение сроков.",
+          "icon": "CircleCheckBig"
+        },
+        "communication": {
+          "title": "Коммуникабельность",
+          "description": "Легко нахожу общий язык с людьми и работаю в команде.",
+          "icon": "Speech"
+        },
+        "creativity": {
+          "title": "Креативность",
+          "description": "Предлагаю нестандартные решения для сложных задач.",
+          "icon": "Lightbulb"
+        },
+        "organization": {
+          "title": "Организованность",
+          "description": "Эффективно планирую и распределяю время.",
+          "icon": "CalendarCheck2"
+        },
+        "technical_knowledge": {
+          "title": "Техническая грамотность",
+          "description": "Обладаю знаниями в современных технологиях.",
+          "icon": "Settings"
+        },
+        "flexibility": {
+          "title": "Гибкость",
+          "description": "Адаптируюсь к изменениям и новым условиям.",
+          "icon": "PersonStanding"
+        },
+        "analytical_thinking": {
+          "title": "Аналитическое мышление",
+          "description": "Анализирую информацию для взвешенных решений.",
+          "icon": "BarChart3"
+        },
+        "stress_resistance": {
+          "title": "Стрессоустойчивость",
+          "description": "Эффективен в условиях высокой нагрузки и стресса.",
+          "icon": "Shield"
+        },
+        "punctuality": {
+          "title": "Пунктуальность",
+          "description": "Соблюдаю сроки и уважаю время коллег.",
+          "icon": "Clock"
+        },
+        "result_oriented": {
+          "title": "Ориентация на результат",
+          "description": "Стремлюсь к достижению высоких результатов.",
+          "icon": "Target"
+        }
+      }
     }
   }
 }
