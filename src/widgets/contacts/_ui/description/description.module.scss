@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+  max-width: 500px;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  button {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    h2 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    button {
+      font-size: 18px;
+    }
+  }
+}

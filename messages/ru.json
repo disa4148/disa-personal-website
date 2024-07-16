@@ -132,6 +132,21 @@
         "externalLink": "https://nft-jet.com/",
         "gitHubLink": "https://github.com/disa4148/web-application-nft-marketplace"
       }
+    },
+    "contacts": {
+      "title": "Мои контакты",
+      "content": {
+        "title": {
+          "first": "Свяжитесь со мной через",
+          "telegram": "Telegram"
+        },
+        "description": {
+          "first": "Оперативно обсудим все детали вашего проекта.",
+          "telegram": "Telegram",
+          "last": " - отличное средство для общения и прояснения нюансов. Свяжитесь со мной, и мы воплотим ваши идеи в реальность!"
+        },
+        "btn": "Связаться"
+      }
     }
   }
 }

@@ -5,6 +5,7 @@ import About from '@/src/widgets/about/About';
 import Skills from '@/src/widgets/skills/Skills';
 import Qualities from '@/src/widgets/qualities/Qualities';
 import Projects from '@/src/widgets/projects/Projects';
+import Contacts from '@/src/widgets/contacts/Contacts';
 
 const Home: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const Home: React.FC = () => {
       <Skills />
       <Qualities />
       <Projects />
-      <p>сука</p>
+      <Contacts />
     </div>
   );
 };
