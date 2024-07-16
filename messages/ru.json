@@ -1,25 +1,25 @@
 {
   "header": {
     "nav": {
-      "home": {
-        "title": "Главная",
-        "link": "/"
+      "about": {
+        "title": "Обо мне",
+        "link": "/about"
       },
       "skills": {
         "title": "Мои навыки",
-        "link": "/"
-      },
-      "projects": {
-        "title": "Проекты",
-        "link": "/"
+        "link": "/skills"
       },
       "qualities": {
         "title": "Мои качества",
-        "link": "/"
+        "link": "/qualities"
+      },
+      "projects": {
+        "title": "Мои проекты",
+        "link": "/projects"
       },
       "contacts": {
         "title": "Контакты",
-        "link": "/"
+        "link": "/contacts"
       }
     },
     "localeSwitcher": {

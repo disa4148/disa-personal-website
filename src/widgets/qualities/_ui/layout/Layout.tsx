@@ -7,7 +7,7 @@ interface Layout {
 
 const Layout: React.FC<Layout> = ({ title, slider }) => {
   return (
-    <section className={css.layout}>
+    <section className={css.layout} id="qualities">
       <div className={css.wrapper}>
         {title}
         {slider}

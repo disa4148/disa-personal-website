@@ -13,16 +13,16 @@ type Items = {
 const Footer: React.FC = () => {
   const t = useTranslations('header.nav');
   const keys: string[] = [
-    'home',
+    'about',
     'skills',
-    'projects',
     'qualities',
+    'projects',
     'contacts',
   ];
 
   const items: Items[] = keys.map((key) => ({
     title: t(`${key}.title`),
-    link: t(`${key}.link`),
+    link: `${key}`,
   }));
 
   return (

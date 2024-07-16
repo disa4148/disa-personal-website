@@ -1,25 +1,25 @@
 {
   "header": {
     "nav": {
-      "home": {
-        "title": "Home",
-        "link": "/"
+      "about": {
+        "title": "About me",
+        "link": "/about"
       },
       "skills": {
         "title": "My skills",
-        "link": "/"
-      },
-      "projects": {
-        "title": "My Projects",
-        "link": "/"
+        "link": "/skills"
       },
       "qualities": {
         "title": "My qualities",
-        "link": "/"
+        "link": "/qualities"
+      },
+      "projects": {
+        "title": "My Projects",
+        "link": "/projects"
       },
       "contacts": {
         "title": "Contacts",
-        "link": "/"
+        "link": "/contacts"
       }
     },
     "localeSwitcher": {
