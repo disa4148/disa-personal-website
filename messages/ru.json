@@ -113,6 +113,25 @@
           "icon": "Target"
         }
       }
+    },
+    "projects": {
+      "title": "Мои проекты",
+      "denwa": {
+        "projectType": "Уникальный проект",
+        "title": "Project Denwa",
+        "description": "Denwa - это инновационная фриланс-биржа, созданная для того, чтобы сделать поиск работы и исполнителей максимально удобным и доступным. Платформа предоставляет возможность эффективно разрабатывать проекты любой сложности.",
+        "image": "denwa.png",
+        "externalLink": "https://web-application-omega-amber.vercel.app/",
+        "gitHubLink": "https://github.com/Project-DENWA"
+      },
+      "nftjet": {
+        "projectType": "Уникальный проект",
+        "title": "NFT JET",
+        "description": "NFT JET — это маркетплейс для торговли невзаимозаменяемыми токенами (NFT). Платформа предоставляет пользователям удобный интерфейс для покупки, продажи и аукционирования цифровых активов, таких как произведения искусства, коллекционные предметы и виртуальные товары.",
+        "image": "nftjet.png",
+        "externalLink": "https://nft-jet.com/",
+        "gitHubLink": "https://github.com/disa4148/web-application-nft-marketplace"
+      }
     }
   }
 }

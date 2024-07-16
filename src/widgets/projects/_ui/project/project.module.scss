@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  gap: 80px;
+}
+
+@media (max-width: 1180px) {
+  .wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    gap: 40px;
+  }
+}

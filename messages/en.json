@@ -113,6 +113,25 @@
           "icon": "Target"
         }
       }
+    },
+    "projects": {
+      "title": "My Projects",
+      "denwa": {
+        "projectType": "Featured Project",
+        "title": "Project Denwa",
+        "description": "Denwa - innovative freelance exchange designed to make finding work and performers as convenient and accessible as possible. The platform provides an opportunity to efficiently develop projects of any complexity.",
+        "image": "denwa.png",
+        "externalLink": "https://web-application-omega-amber.vercel.app/",
+        "gitHubLink": "https://github.com/Project-DENWA"
+      },
+      "nftjet": {
+        "projectType": "Featured Project",
+        "title": "NFT JET",
+        "description": "NFT JET - marketplace for trading non-fungible tokens (NFTs). The platform provides users with a user-friendly interface for buying, selling and auctioning digital assets such as artworks, collectibles and virtual goods.",
+        "image": "nftjet.png",
+        "externalLink": "https://nft-jet.com/",
+        "gitHubLink": "https://github.com/disa4148/web-application-nft-marketplace"
+      }
     }
   }
 }

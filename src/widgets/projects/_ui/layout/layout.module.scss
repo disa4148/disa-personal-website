@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 60px 0;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 60px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .layout {
+    .wrapper {
+      padding: 0 40px;
+    }
+  }
+}
