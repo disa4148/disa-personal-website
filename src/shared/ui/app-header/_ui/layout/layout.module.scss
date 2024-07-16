@@ -2,21 +2,34 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
-  min-height: 60px;
+  height: 60px;
   padding: 0 60px;
   font-family: 'SFMono', sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+
+  &.hide {
+    transform: translateY(-100%);
+  }
+  &.visible {
+    transform: translateY(0);
+  }
 
   .nav {
     display: flex;
     align-items: center;
     gap: 32px;
+
     .switchers {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 5px;
     }
+
     .sheet {
       display: none;
     }
@@ -27,9 +40,11 @@
   .layout {
     padding: 30px;
     gap: 16px;
+
     .logo {
       width: max-content;
     }
+
     .nav {
       gap: 16px;
       justify-content: space-around;
@@ -44,6 +59,7 @@
       .switchers {
         display: none;
       }
+
       .sheet {
         display: flex;
       }

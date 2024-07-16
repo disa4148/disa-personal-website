@@ -26,6 +26,7 @@
       flex-direction: column-reverse;
       gap: 80px;
       max-width: max-content;
+      padding: 60px 60px 0 60px;
     }
   }
 }
@@ -33,7 +34,7 @@
 @media (max-width: 480px) {
   .layout {
     .wrapper {
-      padding: 0 40px;
+      padding: 40px 40px 0 40px;
     }
   }
 }

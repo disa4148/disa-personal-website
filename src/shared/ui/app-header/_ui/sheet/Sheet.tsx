@@ -5,7 +5,6 @@ import {
   SheetDescription,
   SheetFooter,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from '@/src/shared/ui/sheet';
 import { useState } from 'react';
@@ -27,8 +26,12 @@ type Props = {
 const SheetFC: React.FC<Props> = ({ items }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
-  const toggleMenu = () => {
+  const toggleMenu = (): void => {
     setIsOpen((prevIsOpen) => !prevIsOpen);
+  };
+
+  const closeMenu = (): void => {
+    setIsOpen(false);
   };
 
   return (
@@ -39,10 +42,9 @@ const SheetFC: React.FC<Props> = ({ items }) => {
       <SheetContent>
         <SheetHeader>
           <Burger isOpen={isOpen} toggleMenu={toggleMenu} />
-          <SheetTitle></SheetTitle>
           <SheetDescription className={css.description}>
             {items.map((item: Items, index: number) => (
-              <Link key={index} href={item.link}>
+              <Link key={index} href={`#${item.link}`} onClick={closeMenu}>
                 <span className="text-dark-main">0{index + 1}.</span>{' '}
                 {item.title}
               </Link>
