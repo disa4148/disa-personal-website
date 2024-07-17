@@ -5,7 +5,7 @@ import LogoIcon from './assets/logo/LogoIcon';
 
 const Logo: React.FC = () => {
   return (
-    <Link className={css.wrapper} href="/">
+    <Link className={css.wrapper} href="#home">
       <LogoIcon className={css.logo} />
       <span>disa.</span>
     </Link>

@@ -8,7 +8,7 @@ interface Layout {
 
 const Layout: React.FC<Layout> = ({ bio, avatar }) => {
   return (
-    <section className={css.layout}>
+    <section className={css.layout} id="home">
       <div className={css.wrapper}>
         {bio} {avatar}
       </div>

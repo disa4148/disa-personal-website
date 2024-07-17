@@ -1,19 +1,36 @@
+import css from './logoIcon.module.scss';
+
 const LogoIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
-      width="16"
-      height="17"
-      viewBox="0 0 16 17"
+      width="38"
+      height="38"
+      viewBox="0 0 28 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
+      className={css.svgElem}
     >
+      <circle
+        cx="14"
+        cy="14"
+        r="13.5"
+        stroke="black"
+        className={css.svgElem1}
+      ></circle>
+      <circle
+        cx="14"
+        cy="14"
+        r="11.5"
+        fill="black"
+        stroke="#ABB2BF"
+        className={css.svgElem2}
+      ></circle>
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M12 0.5H8V4.5H4H0V8.5V12.5V16.5H4H8V12.5H12H16V8.5V4.5V0.5H12ZM4 12.5H8V8.5H12V4.5H8V8.5H4V12.5Z"
-        fill="white"
-      />
+        d="M10 10H16C17.1046 10 18 10.8954 18 12V17C18 18.1046 17.1046 19 16 19H10"
+        stroke="white"
+        className={css.svgElem3}
+      ></path>
     </svg>
   );
 };
