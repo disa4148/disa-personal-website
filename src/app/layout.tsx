@@ -33,6 +33,9 @@ const LocaleLayout: React.FC<LocaleLayoutProps> = ({
   const messages = useMessages();
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <meta name="yandex-verification" content="f063ebe699807c88" />
+      </head>
       <body className={cn(FiraCode.className, 'bg-dark-bg-100')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>{children}</Providers>
